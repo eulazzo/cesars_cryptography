@@ -20,8 +20,9 @@ encodedData.forEach(word => {
     }
     answerDecoded.push(' ');
 });
- 
-answerDecoded = answerDecoded.join('').trim();
+//answerDecoded = answerDecoded.join('').trim();
+
+answerDecoded = answerDecoded.join('')
 module.exports = answerDecoded;
 
 
